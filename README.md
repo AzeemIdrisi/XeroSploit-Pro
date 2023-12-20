@@ -4,10 +4,16 @@
 [![Build](https://img.shields.io/badge/Supported_OS-linux-orange.svg)]()
 [![AUR](https://img.shields.io/aur/license/yaourt.svg)]()
 
-Xerosploit
-=
-Xerosploit is a penetration testing toolkit whose goal is to perform man in the middle attacks for testing purposes. It brings various modules that allow to realise efficient attacks, and also allows to carry out denial of service attacks and port scanning.
+<div align="center">
+
+# Xerosploit Pro
+
+### Fork of the original [xerosploit](https://github.com/LionSec/xerosploit) with latest bug fixes.
+
+Xerosploit Pro is a penetration testing toolkit whose goal is to perform man in the middle attacks for testing purposes. It brings various modules that allow to realise efficient attacks, and also allows to carry out denial of service attacks and port scanning.
 Powered by <a href="https://www.bettercap.org"> bettercap</a> and <a href="https://www.bettercap.org"> nmap</a>.
+</div>
+
 
 ![](http://i.imgur.com/bbr48Ep.png)
 
@@ -26,11 +32,11 @@ Dependencies
 
 
 
-Instalation
+Installation
 =
 Dependencies will be automatically installed.
 
-    git clone https://github.com/LionSec/xerosploit
+    git clone https://github.com/AzeemIdrisi/XeroSploit-Pro
     cd xerosploit && sudo python install.py
     sudo xerosploit
 
@@ -42,24 +48,16 @@ Tested on
     <tr>
         <th>Operative system</th>
         <th> Version </th>
-    </tr>
-    <tr>
-        <td>Ubuntu</td>
-        <td> 16.04  / 15.10 </td>
-    </tr>
     <tr>
         <td>Kali linux</td>
-        <td> Rolling / Sana</td>
+        <td> Rolling 2023.3</td>
     </tr>
-    <tr>
-        <td>Parrot OS</td>
-        <td>3.1 </td>
-    </tr>
+ 
 </table>
 
 
 
-features 
+Features 
 =
 - Port scanning
 - Network mapping
@@ -74,25 +72,7 @@ features
 - Drifnet
 - Webpage defacement and more ...
 
-Demonstration
-=
-https://www.youtube.com/watch?v=35QUrtZEV9U
+# Credits
 
-I have some questions!
-=
-
-Please visit https://github.com/LionSec/xerosploit/issues
-
-Donations
-=
-- Paypal : https://www.paypal.me/lionsec
-- Bitcoin : 12dM5kZjYMizNuXaqu7QZBLNDkXjfKYpRD
-
-
-Contact
-=
-- Website : https://neodrix.com
-- Youtube : https://youtube.com/inf98es
-- Facebook : https://facebook.com/in98
-- Twitter: @LionSec1
-- Email : informatic98es@gmail.com
+Developer - [LionSec](https://github.com/LionSec)
+Contributor - [AzeemIdrisi](https://github.com/AzeemIdrisi)
